@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9669EC2BD8C04C0091EBDD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9669EA2BD8C04C0091EBDD /* MapViewController.swift */; };
+		1F9669ED2BD8C04C0091EBDD /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9669EB2BD8C04C0091EBDD /* MapViewController.xib */; };
+		1F9669EF2BD8C1360091EBDD /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9669EE2BD8C1360091EBDD /* TabController.swift */; };
+		1F9669F12BD8C7A60091EBDD /* JournalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9669F02BD8C7A60091EBDD /* JournalViewController.xib */; };
+		1F9669F42BD902B70091EBDD /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9669F22BD902B70091EBDD /* NewEntryViewController.swift */; };
+		1F9669F52BD902B70091EBDD /* NewEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9669F32BD902B70091EBDD /* NewEntryViewController.xib */; };
+		1F9669F92BD914000091EBDD /* JournalEntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9669F72BD914000091EBDD /* JournalEntryDetailViewController.swift */; };
+		1F9669FA2BD914000091EBDD /* JournalEntryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9669F82BD914000091EBDD /* JournalEntryDetailViewController.xib */; };
+		1F9669FE2BD92A390091EBDD /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9669FC2BD92A390091EBDD /* JournalTableViewCell.swift */; };
+		1F9669FF2BD92A390091EBDD /* JournalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9669FD2BD92A390091EBDD /* JournalTableViewCell.xib */; };
+		1F966A022BD92E3E0091EBDD /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A012BD92E3E0091EBDD /* NSObject+Extension.swift */; };
+		1F966A0F2BDA0FB70091EBDD /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A0E2BDA0FB70091EBDD /* JournalEntry.swift */; };
+		1F966A112BE0DC350091EBDD /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A102BE0DC350091EBDD /* SharedData.swift */; };
+		1F966A142BE3505A0091EBDD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A132BE3505A0091EBDD /* RatingView.swift */; };
+		1F966A1C2BE3979D0091EBDD /* JournalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A1A2BE3979D0091EBDD /* JournalListViewController.swift */; };
+		1F966A212BE398800091EBDD /* JournalListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F966A1F2BE398800091EBDD /* JournalListCollectionViewCell.swift */; };
+		1F966A222BE398800091EBDD /* JournalListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F966A202BE398800091EBDD /* JournalListCollectionViewCell.xib */; };
+		1F966A242BE399250091EBDD /* JournalListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F966A232BE399250091EBDD /* JournalListViewController.xib */; };
 		1FA3CA322BD8A90C002B4593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3CA312BD8A90C002B4593 /* AppDelegate.swift */; };
 		1FA3CA342BD8A90C002B4593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3CA332BD8A90C002B4593 /* SceneDelegate.swift */; };
-		1FA3CA362BD8A90C002B4593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3CA352BD8A90C002B4593 /* ViewController.swift */; };
+		1FA3CA362BD8A90C002B4593 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3CA352BD8A90C002B4593 /* JournalViewController.swift */; };
 		1FA3CA392BD8A90C002B4593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3CA372BD8A90C002B4593 /* Main.storyboard */; };
 		1FA3CA3B2BD8A90F002B4593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3CA3A2BD8A90F002B4593 /* Assets.xcassets */; };
 		1FA3CA3E2BD8A90F002B4593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3CA3C2BD8A90F002B4593 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9669EA2BD8C04C0091EBDD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1F9669EB2BD8C04C0091EBDD /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		1F9669EE2BD8C1360091EBDD /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		1F9669F02BD8C7A60091EBDD /* JournalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalViewController.xib; sourceTree = "<group>"; };
+		1F9669F22BD902B70091EBDD /* NewEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		1F9669F32BD902B70091EBDD /* NewEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewEntryViewController.xib; sourceTree = "<group>"; };
+		1F9669F72BD914000091EBDD /* JournalEntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDetailViewController.swift; sourceTree = "<group>"; };
+		1F9669F82BD914000091EBDD /* JournalEntryDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalEntryDetailViewController.xib; sourceTree = "<group>"; };
+		1F9669FC2BD92A390091EBDD /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		1F9669FD2BD92A390091EBDD /* JournalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalTableViewCell.xib; sourceTree = "<group>"; };
+		1F966A012BD92E3E0091EBDD /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1F966A0E2BDA0FB70091EBDD /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		1F966A102BE0DC350091EBDD /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		1F966A132BE3505A0091EBDD /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		1F966A1A2BE3979D0091EBDD /* JournalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListViewController.swift; sourceTree = "<group>"; };
+		1F966A1F2BE398800091EBDD /* JournalListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalListCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F966A202BE398800091EBDD /* JournalListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalListCollectionViewCell.xib; sourceTree = "<group>"; };
+		1F966A232BE399250091EBDD /* JournalListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalListViewController.xib; sourceTree = "<group>"; };
 		1FA3CA2E2BD8A90C002B4593 /* JRNL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRNL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA3CA312BD8A90C002B4593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FA3CA332BD8A90C002B4593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FA3CA352BD8A90C002B4593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FA3CA352BD8A90C002B4593 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		1FA3CA382BD8A90C002B4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FA3CA3A2BD8A90F002B4593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA3CA3D2BD8A90F002B4593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +73,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9669F62BD902C80091EBDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A092BDA0EEA0091EBDD /* Map Screen */,
+				1F966A082BDA0EBF0091EBDD /* Journal List Scree */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F9669FB2BD92A0B0091EBDD /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F9669FC2BD92A390091EBDD /* JournalTableViewCell.swift */,
+				1F9669FD2BD92A390091EBDD /* JournalTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		1F966A002BD92DFC0091EBDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A012BD92E3E0091EBDD /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F966A072BDA0EAB0091EBDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A0E2BDA0FB70091EBDD /* JournalEntry.swift */,
+				1F966A102BE0DC350091EBDD /* SharedData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F966A082BDA0EBF0091EBDD /* Journal List Scree */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A0B2BDA0F2B0091EBDD /* JornalDetail */,
+				1F966A0A2BDA0F170091EBDD /* Journal */,
+				1F966A152BE396960091EBDD /* JournalCollectionView */,
+				1F966A0C2BDA0F3A0091EBDD /* NewEntry */,
+			);
+			path = "Journal List Scree";
+			sourceTree = "<group>";
+		};
+		1F966A092BDA0EEA0091EBDD /* Map Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1F9669EA2BD8C04C0091EBDD /* MapViewController.swift */,
+				1F9669EB2BD8C04C0091EBDD /* MapViewController.xib */,
+			);
+			path = "Map Screen";
+			sourceTree = "<group>";
+		};
+		1F966A0A2BDA0F170091EBDD /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3CA352BD8A90C002B4593 /* JournalViewController.swift */,
+				1F9669F02BD8C7A60091EBDD /* JournalViewController.xib */,
+				1F9669FB2BD92A0B0091EBDD /* cell */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		1F966A0B2BDA0F2B0091EBDD /* JornalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1F9669F72BD914000091EBDD /* JournalEntryDetailViewController.swift */,
+				1F9669F82BD914000091EBDD /* JournalEntryDetailViewController.xib */,
+			);
+			path = JornalDetail;
+			sourceTree = "<group>";
+		};
+		1F966A0C2BDA0F3A0091EBDD /* NewEntry */ = {
+			isa = PBXGroup;
+			children = (
+				1F9669F22BD902B70091EBDD /* NewEntryViewController.swift */,
+				1F9669F32BD902B70091EBDD /* NewEntryViewController.xib */,
+			);
+			path = NewEntry;
+			sourceTree = "<group>";
+		};
+		1F966A122BE3501C0091EBDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A132BE3505A0091EBDD /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F966A152BE396960091EBDD /* JournalCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A1E2BE398520091EBDD /* cell */,
+				1F966A1A2BE3979D0091EBDD /* JournalListViewController.swift */,
+				1F966A232BE399250091EBDD /* JournalListViewController.xib */,
+			);
+			path = JournalCollectionView;
+			sourceTree = "<group>";
+		};
+		1F966A1E2BE398520091EBDD /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1F966A1F2BE398800091EBDD /* JournalListCollectionViewCell.swift */,
+				1F966A202BE398800091EBDD /* JournalListCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		1FA3CA252BD8A90C002B4593 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +203,16 @@
 			isa = PBXGroup;
 			children = (
 				1FA3CA312BD8A90C002B4593 /* AppDelegate.swift */,
-				1FA3CA332BD8A90C002B4593 /* SceneDelegate.swift */,
-				1FA3CA352BD8A90C002B4593 /* ViewController.swift */,
-				1FA3CA372BD8A90C002B4593 /* Main.storyboard */,
 				1FA3CA3A2BD8A90F002B4593 /* Assets.xcassets */,
-				1FA3CA3C2BD8A90F002B4593 /* LaunchScreen.storyboard */,
+				1F966A002BD92DFC0091EBDD /* Extensions */,
 				1FA3CA3F2BD8A90F002B4593 /* Info.plist */,
+				1FA3CA3C2BD8A90F002B4593 /* LaunchScreen.storyboard */,
+				1FA3CA372BD8A90C002B4593 /* Main.storyboard */,
+				1F966A072BDA0EAB0091EBDD /* Models */,
+				1FA3CA332BD8A90C002B4593 /* SceneDelegate.swift */,
+				1F9669EE2BD8C1360091EBDD /* TabController.swift */,
+				1F9669F62BD902C80091EBDD /* View */,
+				1F966A122BE3501C0091EBDD /* Views */,
 			);
 			path = JRNL;
 			sourceTree = "<group>";
@@ -125,9 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F966A242BE399250091EBDD /* JournalListViewController.xib in Resources */,
+				1F966A222BE398800091EBDD /* JournalListCollectionViewCell.xib in Resources */,
 				1FA3CA3E2BD8A90F002B4593 /* LaunchScreen.storyboard in Resources */,
 				1FA3CA3B2BD8A90F002B4593 /* Assets.xcassets in Resources */,
+				1F9669F52BD902B70091EBDD /* NewEntryViewController.xib in Resources */,
+				1F9669F12BD8C7A60091EBDD /* JournalViewController.xib in Resources */,
 				1FA3CA392BD8A90C002B4593 /* Main.storyboard in Resources */,
+				1F9669ED2BD8C04C0091EBDD /* MapViewController.xib in Resources */,
+				1F9669FA2BD914000091EBDD /* JournalEntryDetailViewController.xib in Resources */,
+				1F9669FF2BD92A390091EBDD /* JournalTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA3CA362BD8A90C002B4593 /* ViewController.swift in Sources */,
+				1F966A112BE0DC350091EBDD /* SharedData.swift in Sources */,
+				1F9669EF2BD8C1360091EBDD /* TabController.swift in Sources */,
+				1FA3CA362BD8A90C002B4593 /* JournalViewController.swift in Sources */,
+				1F966A022BD92E3E0091EBDD /* NSObject+Extension.swift in Sources */,
+				1F966A1C2BE3979D0091EBDD /* JournalListViewController.swift in Sources */,
+				1F966A0F2BDA0FB70091EBDD /* JournalEntry.swift in Sources */,
 				1FA3CA322BD8A90C002B4593 /* AppDelegate.swift in Sources */,
+				1F966A142BE3505A0091EBDD /* RatingView.swift in Sources */,
+				1F9669FE2BD92A390091EBDD /* JournalTableViewCell.swift in Sources */,
 				1FA3CA342BD8A90C002B4593 /* SceneDelegate.swift in Sources */,
+				1F966A212BE398800091EBDD /* JournalListCollectionViewCell.swift in Sources */,
+				1F9669F42BD902B70091EBDD /* NewEntryViewController.swift in Sources */,
+				1F9669F92BD914000091EBDD /* JournalEntryDetailViewController.swift in Sources */,
+				1F9669EC2BD8C04C0091EBDD /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +459,6 @@
 				INFOPLIST_FILE = JRNL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +485,6 @@
 				INFOPLIST_FILE = JRNL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
